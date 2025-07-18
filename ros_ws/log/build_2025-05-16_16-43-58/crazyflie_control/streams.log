@@ -1,0 +1,26 @@
+[0.500s] Invoking command in '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/crazyflie_control': AMENT_PREFIX_PATH=/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/crazyflie_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/crazyflie_control/lib/python3.12/site-packages:/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/crazyflie_control/build --no-deps symlink_data
+[0.694s] running develop
+[0.809s] running egg_info
+[0.809s] creating crazyflie_control.egg-info
+[0.819s] writing crazyflie_control.egg-info/PKG-INFO
+[0.819s] writing dependency_links to crazyflie_control.egg-info/dependency_links.txt
+[0.819s] writing entry points to crazyflie_control.egg-info/entry_points.txt
+[0.820s] writing requirements to crazyflie_control.egg-info/requires.txt
+[0.820s] writing top-level names to crazyflie_control.egg-info/top_level.txt
+[0.820s] writing manifest file 'crazyflie_control.egg-info/SOURCES.txt'
+[0.841s] reading manifest file 'crazyflie_control.egg-info/SOURCES.txt'
+[0.842s] writing manifest file 'crazyflie_control.egg-info/SOURCES.txt'
+[0.853s] running build_ext
+[0.853s] Creating /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/crazyflie_control/lib/python3.12/site-packages/crazyflie-control.egg-link (link to .)
+[0.854s] Installing controller_node script to /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/crazyflie_control/lib/crazyflie_control
+[0.854s] 
+[0.854s] Installed /home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/crazyflie_control
+[0.854s] running symlink_data
+[0.854s] creating /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/crazyflie_control/share/ament_index
+[0.854s] creating /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/crazyflie_control/share/ament_index/resource_index
+[0.854s] creating /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/crazyflie_control/share/ament_index/resource_index/packages
+[0.854s] symbolically linking /home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/crazyflie_control/resource/crazyflie_control -> /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/crazyflie_control/share/ament_index/resource_index/packages
+[0.854s] symbolically linking /home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/crazyflie_control/package.xml -> /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/crazyflie_control/share/crazyflie_control
+[0.855s] creating /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/crazyflie_control/share/crazyflie_control/launch
+[0.855s] creating /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/crazyflie_control/share/crazyflie_control/config
+[0.872s] Invoked command in '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/crazyflie_control' returned '0': AMENT_PREFIX_PATH=/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/crazyflie_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/crazyflie_control/lib/python3.12/site-packages:/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/crazyflie_control/build --no-deps symlink_data

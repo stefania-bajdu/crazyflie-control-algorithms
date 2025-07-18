@@ -1,0 +1,7 @@
+# ROS 2 Python client library dependencies (installed automatically in ROS 2 workspaces)
+# rclpy and ament_index_python are not included here because they come with ROS 2
+
+cflib>=0.1.28
+casadi>=3.6.7
+numpy>=1.26.4
+PyYAML>=6.0.1

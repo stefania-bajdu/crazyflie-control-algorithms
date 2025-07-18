@@ -1,0 +1,294 @@
+[0.006s] Invoking command in '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bajdus/Desktop/complete-velocity-messages/ros_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces
+[0.082s] -- The C compiler identification is GNU 13.3.0
+[0.143s] -- The CXX compiler identification is GNU 13.3.0
+[0.159s] -- Detecting C compiler ABI info
+[0.225s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.231s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.316s] -- Detecting CXX compile features
+[0.316s] -- Detecting CXX compile features - done
+[0.319s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.419s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.469s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.491s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.517s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.526s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.564s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.588s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.597s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.027s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[1.029s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[1.031s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[1.033s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.615s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.840s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.843s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.947s] -- Found PythonExtra: /usr/bin/python3  
+[2.314s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.363s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[2.365s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[2.375s] -- Configuring done (2.4s)
+[2.404s] -- Generating done (0.0s)
+[2.412s] -- Build files have been written to: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/motion_capture_tracking_interfaces
+[2.419s] Invoked command in '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bajdus/Desktop/complete-velocity-messages/ros_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces
+[2.420s] Invoking command in '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/motion_capture_tracking_interfaces -- -j20 -l20
+[2.459s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.466s] [  1%] Built target ament_cmake_python_symlink_motion_capture_tracking_interfaces
+[2.597s] [  1%] Built target motion_capture_tracking_interfaces__rosidl_generator_type_description
+[2.597s] running egg_info
+[2.598s] creating motion_capture_tracking_interfaces.egg-info
+[2.607s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.609s] writing motion_capture_tracking_interfaces.egg-info/PKG-INFO
+[2.609s] writing dependency_links to motion_capture_tracking_interfaces.egg-info/dependency_links.txt
+[2.609s] writing top-level names to motion_capture_tracking_interfaces.egg-info/top_level.txt
+[2.609s] writing manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[2.612s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.644s] reading manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[2.645s] writing manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[2.666s] [  4%] Built target ament_cmake_python_build_motion_capture_tracking_interfaces_egg
+[2.810s] [  4%] Built target motion_capture_tracking_interfaces__cpp
+[2.858s] [ 10%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.c.o[0m
+[2.858s] [ 10%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose__description.c.o[0m
+[2.858s] [ 10%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.c.o[0m
+[2.858s] [ 10%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__description.c.o[0m
+[2.858s] [ 12%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/target_position__functions.c.o[0m
+[2.858s] [ 14%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/target_position_array__functions.c.o[0m
+[2.859s] [ 15%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose__functions.c.o[0m
+[2.859s] [ 17%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__functions.c.o[0m
+[2.859s] [ 20%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/target_position__description.c.o[0m
+[2.859s] [ 20%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/target_position__type_support.c.o[0m
+[2.860s] [ 21%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/target_position_array__description.c.o[0m
+[2.862s] [ 23%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/target_position_array__type_support.c.o[0m
+[2.909s] [ 25%] [32m[1mLinking C shared library libmotion_capture_tracking_interfaces__rosidl_generator_c.so[0m
+[2.939s] [ 25%] Built target motion_capture_tracking_interfaces__rosidl_generator_c
+[2.948s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.948s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.949s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.949s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.950s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.950s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.111s] [ 37%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/target_position__type_support.cpp.o[0m
+[3.111s] [ 37%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/named_pose_array__type_support.cpp.o[0m
+[3.112s] [ 40%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/target_position_array__type_support.cpp.o[0m
+[3.113s] [ 40%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/named_pose__type_support.cpp.o[0m
+[3.132s] [ 42%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.cpp.o[0m
+[3.133s] [ 45%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/target_position__type_support.cpp.o[0m
+[3.133s] [ 45%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/target_position_array__type_support.cpp.o[0m
+[3.136s] [ 46%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.cpp.o[0m
+[3.142s] [ 48%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/target_position__type_support.cpp.o[0m
+[3.142s] [ 51%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/named_pose__type_support.cpp.o[0m
+[3.142s] [ 51%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/named_pose_array__type_support.cpp.o[0m
+[3.150s] [ 53%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/target_position_array__type_support.cpp.o[0m
+[3.184s] [ 54%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.c.o[0m
+[3.184s] [ 56%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.c.o[0m
+[3.186s] [ 57%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/target_position_array__type_support.c.o[0m
+[3.191s] [ 59%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/target_position__type_support.c.o[0m
+[3.191s] [ 60%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so[0m
+[3.207s] [ 65%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support_c.cpp.o[0m
+[3.208s] [ 65%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/target_position__type_support_c.cpp.o[0m
+[3.208s] [ 65%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/target_position_array__type_support_c.cpp.o[0m
+[3.212s] [ 67%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support_c.cpp.o[0m
+[3.217s] [ 68%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/named_pose__type_support.cpp.o[0m
+[3.218s] [ 71%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/named_pose_array__type_support.cpp.o[0m
+[3.219s] [ 71%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/target_position__type_support.cpp.o[0m
+[3.236s] [ 73%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/target_position_array__type_support.cpp.o[0m
+[3.253s] [ 73%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_c
+[3.255s] [ 75%] [32m[1mLinking C shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.301s] [ 75%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c
+[3.476s] [ 76%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so[0m
+[3.513s] [ 76%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_cpp
+[3.533s] [ 78%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.586s] [ 78%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp
+[3.670s] [ 79%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.684s] [ 81%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.718s] [ 81%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.739s] [ 81%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c
+[3.755s] [ 81%] Built target motion_capture_tracking_interfaces
+[3.772s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.020s] [ 82%] Built target motion_capture_tracking_interfaces__py
+[4.034s] [ 85%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_named_pose_s.c.o[0m
+[4.034s] [ 85%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_target_position_s.c.o[0m
+[4.035s] [ 87%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_named_pose_array_s.c.o[0m
+[4.036s] [ 89%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_target_position_array_s.c.o[0m
+[4.122s] [ 90%] [32m[1mLinking C shared library libmotion_capture_tracking_interfaces__rosidl_generator_py.so[0m
+[4.155s] [ 90%] Built target motion_capture_tracking_interfaces__rosidl_generator_py
+[4.170s] [ 92%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.170s] [ 93%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.171s] [ 95%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.235s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[4.235s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.so[0m
+[4.237s] [100%] [32m[1mLinking C shared module rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.259s] [100%] Built target motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c
+[4.261s] [100%] Built target motion_capture_tracking_interfaces_s__rosidl_typesupport_c
+[4.263s] [100%] Built target motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c
+[4.272s] Invoked command in '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/motion_capture_tracking_interfaces -- -j20 -l20
+[4.279s] Invoking command in '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/motion_capture_tracking_interfaces
+[4.284s] -- Install configuration: ""
+[4.285s] -- Execute custom install script
+[4.285s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/rosidl_interfaces/motion_capture_tracking_interfaces
+[4.290s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPose.json
+[4.296s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArray.json
+[4.301s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/TargetPosition.json
+[4.306s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/TargetPositionArray.json
+[4.312s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__functions.h
+[4.317s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__struct.h
+[4.325s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.h
+[4.331s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__functions.h
+[4.337s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__struct.h
+[4.342s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.h
+[4.349s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position__functions.h
+[4.355s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position__struct.h
+[4.360s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position__type_support.h
+[4.368s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position_array__functions.h
+[4.374s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position_array__struct.h
+[4.379s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position_array__type_support.h
+[4.384s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose.h
+[4.391s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array.h
+[4.398s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.404s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/target_position.h
+[4.410s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/target_position_array.h
+[4.418s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/library_path.sh
+[4.425s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/library_path.dsv
+[4.431s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_fastrtps_c.h
+[4.437s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_fastrtps_c.h
+[4.443s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position__rosidl_typesupport_fastrtps_c.h
+[4.450s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position_array__rosidl_typesupport_fastrtps_c.h
+[4.458s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.464s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__builder.hpp
+[4.470s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__struct.hpp
+[4.475s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__traits.hpp
+[4.481s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.hpp
+[4.489s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__builder.hpp
+[4.497s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__struct.hpp
+[4.505s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__traits.hpp
+[4.512s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.hpp
+[4.520s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position__builder.hpp
+[4.525s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position__struct.hpp
+[4.532s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position__traits.hpp
+[4.537s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position__type_support.hpp
+[4.543s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position_array__builder.hpp
+[4.548s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position_array__struct.hpp
+[4.554s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position_array__traits.hpp
+[4.560s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position_array__type_support.hpp
+[4.566s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose.hpp
+[4.572s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array.hpp
+[4.578s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.583s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/target_position.hpp
+[4.588s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/target_position_array.hpp
+[4.595s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[4.600s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.607s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position__rosidl_typesupport_fastrtps_cpp.hpp
+[4.613s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.618s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.624s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_introspection_c.h
+[4.629s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_introspection_c.h
+[4.636s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position__rosidl_typesupport_introspection_c.h
+[4.641s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position_array__rosidl_typesupport_introspection_c.h
+[4.647s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.655s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_introspection_cpp.hpp
+[4.660s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_introspection_cpp.hpp
+[4.665s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position__rosidl_typesupport_introspection_cpp.hpp
+[4.672s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/target_position_array__rosidl_typesupport_introspection_cpp.hpp
+[4.678s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/pythonpath.sh
+[4.684s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/pythonpath.dsv
+[4.689s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces-1.0.5-py3.12.egg-info/PKG-INFO
+[4.694s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces-1.0.5-py3.12.egg-info/SOURCES.txt
+[4.702s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces-1.0.5-py3.12.egg-info/dependency_links.txt
+[4.709s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces-1.0.5-py3.12.egg-info/top_level.txt
+[4.715s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/__init__.py
+[4.720s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_c.c
+[4.726s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.734s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.740s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.so
+[4.745s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[4.752s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.so
+[4.758s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/__init__.py
+[4.763s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose.py
+[4.769s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose_array.py
+[4.773s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose_array_s.c
+[4.779s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose_s.c
+[4.785s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_target_position.py
+[4.790s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_target_position_array.py
+[4.796s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_target_position_array_s.c
+[4.802s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_target_position_s.c
+[4.810s] -- Up-to-date symlink: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[4.810s] -- Up-to-date symlink: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.so
+[4.810s] -- Up-to-date symlink: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.so
+[4.810s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPose.idl
+[4.818s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArray.idl
+[4.824s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/TargetPosition.idl
+[4.831s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/TargetPositionArray.idl
+[4.839s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPose.msg
+[4.844s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArray.msg
+[4.849s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/TargetPosition.msg
+[4.854s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/TargetPositionArray.msg
+[4.860s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/package_run_dependencies/motion_capture_tracking_interfaces
+[4.867s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/parent_prefix_path/motion_capture_tracking_interfaces
+[4.873s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/ament_prefix_path.sh
+[4.879s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/ament_prefix_path.dsv
+[4.884s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/path.sh
+[4.890s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/path.dsv
+[4.895s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.bash
+[4.900s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.sh
+[4.906s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.zsh
+[4.914s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.dsv
+[4.922s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.dsv
+[4.929s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/packages/motion_capture_tracking_interfaces
+[4.935s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.941s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.947s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.953s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.959s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.967s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.973s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.980s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfacesConfig.cmake
+[4.987s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfacesConfig-version.cmake
+[4.991s] -- Symlinking: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.xml
+[4.998s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_c.so
+[4.998s] -- Set non-toolchain portion of runtime path of "/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_c.so" to ""
+[4.998s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.999s] -- Set non-toolchain portion of runtime path of "/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.999s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.999s] -- Set non-toolchain portion of runtime path of "/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.999s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so
+[4.999s] -- Set non-toolchain portion of runtime path of "/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.999s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so
+[4.999s] -- Set non-toolchain portion of runtime path of "/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so" to ""
+[5.000s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.000s] -- Set non-toolchain portion of runtime path of "/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.000s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so
+[5.000s] -- Set non-toolchain portion of runtime path of "/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.027s] Listing '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces'...
+[5.027s] Compiling '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/__init__.py'...
+[5.027s] Listing '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg'...
+[5.027s] Compiling '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/__init__.py'...
+[5.027s] Compiling '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose.py'...
+[5.027s] Compiling '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose_array.py'...
+[5.027s] Compiling '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_target_position.py'...
+[5.027s] Compiling '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_target_position_array.py'...
+[5.030s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_py.so
+[5.030s] -- Set non-toolchain portion of runtime path of "/home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_py.so" to ""
+[5.030s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cExport.cmake
+[5.031s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.031s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.031s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.031s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cppExport.cmake
+[5.031s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.031s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.031s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.031s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.031s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cExport.cmake
+[5.031s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.032s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.032s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.032s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cppExport.cmake
+[5.032s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.032s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_pyExport.cmake
+[5.032s] -- Installing: /home/bajdus/Desktop/complete-velocity-messages/ros_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.034s] Invoked command in '/home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/motion_capture_tracking_interfaces

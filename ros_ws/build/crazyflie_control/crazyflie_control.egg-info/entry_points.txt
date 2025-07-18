@@ -1,0 +1,2 @@
+[console_scripts]
+controller_node = crazyflie_control.control_sequential:main
