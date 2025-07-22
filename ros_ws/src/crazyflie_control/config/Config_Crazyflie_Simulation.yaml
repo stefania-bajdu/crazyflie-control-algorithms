@@ -3,15 +3,15 @@ qtm_ip: 192.168.1.145
 simid: 706
 
 uris:
-- radio://0/80/2M/E7E7E7E7E1
+# - radio://0/80/2M/E7E7E7E7E1
 - radio://0/80/2M/E7E7E7E7E2
-- radio://0/80/2M/E7E7E7E7E3
+# - radio://0/80/2M/E7E7E7E7E3
 # - radio://0/80/2M/E7E7E7E7E9
 
 drone_bodies:
-- DroneE1
+# - DroneE1
 - DroneE2
-- DroneE3
+# - DroneE3
 # - DroneE9
 
 mass:

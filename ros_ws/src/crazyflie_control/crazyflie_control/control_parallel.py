@@ -60,8 +60,6 @@ class CrazyflieController(Node):
         self.Kp = np.diag([2, 2, 2])
         self.Kd = np.diag([6, 6, 6])
 
-        self.solver_data = setup_solver(solver_config)
-
         # Create the processes for each drone
         ray.init()
         self.workers = [MPCWorker.remote(id, drone, self.uris[id], solver_config) for id, drone in enumerate(self.drone_bodies)]

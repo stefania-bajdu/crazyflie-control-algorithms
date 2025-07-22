@@ -1,1 +1,0 @@
-/home/bajdus/Desktop/complete-velocity-messages/ros_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces/msg/NamedPoseArray.msg

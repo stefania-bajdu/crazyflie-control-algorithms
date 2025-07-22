@@ -1,8 +1,0 @@
-msg/NamedPose.idl
-msg/NamedPose.msg
-msg/NamedPoseArray.idl
-msg/NamedPoseArray.msg
-msg/TargetPosition.idl
-msg/TargetPosition.msg
-msg/TargetPositionArray.idl
-msg/TargetPositionArray.msg

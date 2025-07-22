@@ -304,8 +304,8 @@ def compute_control_real(solver_data, state_xi, pos_ref, v_ref, i, id=0):
     Args:
         solver_data (dict): Output of setup_solver()
         state_xi (np.ndarray): Current drone state
-        pos_ref (np.ndarray): Position reference trajectory [N x 6]
-        v_ref (np.ndarray): Virtual control reference [N x 3]
+        pos_ref (np.ndarray): Position reference trajectory for the current drone [N x 6]
+        v_ref (np.ndarray): Virtual control reference for the current drone [N x 3]
         i (int): Current timestep index
         id (int, optional): Drone ID (for formation offsets, if used)
 

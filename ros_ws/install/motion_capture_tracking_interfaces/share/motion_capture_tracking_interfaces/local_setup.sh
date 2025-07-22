@@ -1,1 +1,0 @@
-/home/bajdus/Desktop/complete-velocity-messages/ros_ws/build/motion_capture_tracking_interfaces/ament_cmake_environment_hooks/local_setup.sh

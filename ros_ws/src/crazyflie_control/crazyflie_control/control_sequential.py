@@ -156,18 +156,18 @@ class CrazyflieController(Node):
 
     def load_trajectories(self):
         """ Load flight reference trajectories for each drone. """
-        full_ref = trajgen.get_ref_setpoints(psi=0, Tsim=self.Tsim, dt=self.Ts, version=0)
-        # full_ref = generate_traj.get_ref(0, 30, self.Ts)
+        # full_ref = trajgen.get_ref_setpoints(psi=0, Tsim=self.Tsim, dt=self.Ts, version=0)
+        full_ref = generate_traj.get_ref(0, 30, self.Ts)
         ref, vref = {}, {}
 
         ref[self.uris[0]] = full_ref["trajectory"] + np.array([0.5, 0.0, 0.0, 0, 0, 0])
         vref[self.uris[0]] = full_ref["v_ref"]
 
-        ref[self.uris[1]] = full_ref["trajectory"] + np.array([-0.5, -0.5, 0.0, 0, 0, 0])
-        vref[self.uris[1]] = full_ref["v_ref"]
+        # ref[self.uris[1]] = full_ref["trajectory"] + np.array([-0.5, -0.5, 0.0, 0, 0, 0])
+        # vref[self.uris[1]] = full_ref["v_ref"]
 
-        ref[self.uris[2]] = full_ref["trajectory"] + np.array([-0.5, 0.5, 0.0, 0, 0, 0])
-        vref[self.uris[2]] = full_ref["v_ref"]
+        # ref[self.uris[2]] = full_ref["trajectory"] + np.array([-0.5, 0.5, 0.0, 0, 0, 0])
+        # vref[self.uris[2]] = full_ref["v_ref"]
 
         # full_ref = trajgen.get_ref_setpoints(psi=0, Tsim=self.Tsim, dt=self.Ts, version=4)
         # ref[self.uris[1]] = full_ref["trajectory"] #+ np.array([0.5, -0.5, 0.2, 0, 0, 0])

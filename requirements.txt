@@ -5,3 +5,4 @@ cflib>=0.1.28
 casadi>=3.6.7
 numpy>=1.26.4
 PyYAML>=6.0.1
+ray>=2.48.0

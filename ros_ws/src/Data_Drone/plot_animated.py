@@ -20,7 +20,7 @@ def plot_real_traj_animated(t, pos_dict, ref_dict, takeoff_time=None,
     # full_refTo = get_ref_setpoints_takeoff(psi=0, Tto=takeoff_time, dt=0.1, ref=full_ref["trajectory"])
     # ref_traj = np.vstack([full_refTo["trajectory"], full_ref["trajectory"]])
 
-    ref_traj = ref_dict['DroneE1'] - np.array([0.5, 0, 0])
+    ref_traj = ref_dict['DroneE2'] - np.array([0.5, 0, 0])
     
     names = list(pos_dict.keys())
     Na = len(names)

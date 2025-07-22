@@ -4,6 +4,8 @@ ROS 2 packages for controlling a swarm of Crazyflie 2.1 nanodrones with motion c
 
 This project requires the [NatNet SDK](https://optitrack.com/support/downloads/developer-tools.html#natnet-sdk) to interface with the motion capture system. Either install the SDK manually, or make sure to clone this repository recursively.
 
+*Hint*: After downloading the repository, copy the `NatNet_SDK_4.3_ubuntu/lib/libNatNet.so` into the following directory: `ros_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/NatNetSDKCrossplatform/lib/ubuntu`.
+
 ---
 
 ## 📦 Overview
